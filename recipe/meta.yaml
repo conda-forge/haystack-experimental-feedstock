@@ -1,5 +1,5 @@
 {% set name = "haystack-experimental" %}
-{% set version = "0.5.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/haystack_experimental-{{ version }}.tar.gz
-  sha256: 10e91a7a2a2ea64a84e29715d535ecc8ee0ab3050a8d016d25c2a74481538cf7
+  sha256: 508b0a16c29cf45d9c767a0d73f78bcad85c3c475848493cef4fa41cfe6f47a4
 
 build:
   noarch: python
